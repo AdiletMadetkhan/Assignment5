@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>Adilet</p>
+        </div>
+        
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="family.html">Family</a>
+            <a href="education.html">Education</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="contact.html">Contacts</a>
+        </div>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+
+    <div class="container">
+        <h2>Educational Institutions</h2>
+        <div class="edu">
+          <div class="text">
+            <h2>Qobda gymnasium</h2>
+            <p>Qobda gymnasium in Aktobe region offers quality education with an emphasis on developing critical thinking. There is a wide range of subjects and extracurricular activities for the comprehensive development of students. Experienced teachers create a supportive atmosphere, and graduates successfully continue their education at leading universities.</p>
+        </div> 
+        <div class="image-cont">
+        <img src="image/gymnas.jpg" alt="gym">
+        </div>
+        </div>
+
+        <div class="edu">
+            <div class="text">
+                <h2>IQanat High School of Burabay</h2>
+                <p>IQanat High School of Burabay is a private boarding school where gifted students of grades 10 and 11 study and live. We have created a safe, motivating and intellectual environment to develop a strong and cohesive community of graduates. Education at the school is fee-paying, but we also provide grants to the best rural students as part of a social project.</p>
+          </div> 
+          <div class="image-cont">
+          <img src="image/iqanat.jpg" alt="gym">
+          </div>
+          </div>
+
+          <div class="edu">
+            <div class="text">
+                <h2>SDU</h2>
+                <p>Since 1996, SDU University has been one of the leading and innovative academic institutions in Kazakhstan, advancing the educational program through new ideas and creativity, commitment to ethics and principles, autonomy and adaptability, achievements without limits, international professionals and leaders of the future.</p>
+          </div> 
+          <div class="image-cont">
+          <img src="image/sdu.jpg" alt="gym">
+          </div>
+        </div>
+      </div>
+    <script>
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav');
+    
+        burger.addEventListener('click', () => {
+            burger.classList.toggle('active');
+            nav.classList.toggle('active');
+        });
+    </script>
+
+  
+</body>
+</html>
